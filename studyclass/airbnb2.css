@@ -1,0 +1,134 @@
+:root {
+    --airbnb : #FF385C;
+    --airbnbgray : #dcdcdc;
+    --airbnbgray2 :#b6b6b6;
+    --airbnbblack : #535353;
+    --airbnbgray3 : #f1f1f1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.airbnbmain {
+    height: 60px;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+div a{
+    display: flex;
+    text-decoration: none;
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--airbnb);
+}
+
+a i {
+    font-size: 30px;
+}
+
+a p {
+    padding-top: 5px;
+    padding-left: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.center {
+    align-items: center;
+    display: flex;
+}
+
+.centercenter {
+    border: 1px solid var(--airbnbgray);
+    height: 30px;
+    border-radius: 50px;
+    padding: 5px 20px;
+    box-shadow: 0px 1px 1px var(--airbnbgray);
+}
+
+.fa-magnifying-glass {
+    background-color: var(--airbnb);
+    padding: 5px;
+    border: 0.1px solid var(--airbnb);
+    border-radius: 30px;
+    color: white;
+}
+
+form input {
+    margin: 0px 10px;
+    border: 0px solid white;
+    background-color: white;
+}
+
+input[type=text] {
+    width: 60px;
+}
+
+.right {
+    align-items: center;
+    display: flex;
+
+}
+
+hr {
+    border: 0.5px solid var(--airbnbgray);
+}
+
+.right23{
+    border: 1px solid var(--airbnbgray);
+    height: 30px;
+    width: 70px;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 30px;
+}
+
+.right23 i {
+    font-size: 13px;
+    color: var(--airbnbblack);
+    padding: 5px;
+}
+
+.rightright{
+    padding: 5px;
+    color: var(--airbnbblack);
+    display: flex;
+    
+}
+
+.rightright i {
+    padding-right: 10px;
+}
+
+.centercenter:hover {
+    box-shadow: 0px 1px 3px var(--airbnbgray2);
+    outline: none;
+}
+
+.right23:hover {
+    box-shadow: 0px 1px 3px var(--airbnbgray2);
+    outline: none;
+}
+
+.rightright a {
+    
+}
